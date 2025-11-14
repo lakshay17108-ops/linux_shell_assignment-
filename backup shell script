@@ -1,0 +1,17 @@
+#!/bin/bash
+# Purpose: Backup a specified directory with a timestamp
+# Author: baba tillu 
+# Date: 11-Nov-2025
+
+SOURCE_DIR="$1"
+BACKUP_DIR="$HOME/backup"
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+DEST="$BACKUP_DIR/backup_$TIMESTAMP"
+
+# Create backup directory if it doesn't exist
+mkdir -p "$BACKUP_DIR"
+
+# Copy the source directory to the backup location
+cp -r "$SOURCE_DIR" "$DEST"
+
+echo "Backup of $SOURCE_DIR completed at $DEST"
