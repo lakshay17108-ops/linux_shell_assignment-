@@ -1,3 +1,7 @@
+Project Overview
+This project helps students learn the basics of Linux and how to use shell commands and scripts to automate tasks. It includes installing Ubuntu, using common terminal commands, writing useful shell scripts, and uploading everything to GitHub.
+The goal is to give hands-on experience with Linux tools that are widely used in real jobs like system administration, DevOps, and software development. By completing this assignment, students will understand how Linux works and how it can be used to solve real-world problems.
+
 Step 1- Installation
  Option B — Install Ubuntu  on Windows 10/11 Prerequisites: Windows 10 or Windows 11
 PowerShell (Admin) access. 
