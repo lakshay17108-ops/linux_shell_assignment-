@@ -3,23 +3,14 @@ This project helps students learn the basics of Linux and how to use shell comma
 The goal is to give hands-on experience with Linux tools that are widely used in real jobs like system administration, DevOps, and software development. By completing this assignment, students will understand how Linux works and how it can be used to solve real-world problems.
 
 Step 1- Installation
- Option B — Install Ubuntu  on Windows 10/11 Prerequisites: Windows 10 or Windows 11
-PowerShell (Admin) access. 
-Steps (PowerShell/Command Prompt as Administrator) 1
-Enable oracle virtual box and Virtual Machine Platform features: 
-oracle virtual box--install 
-(This installs oracle virtual box and will install a default Linux distribution (usually Ubuntu))
-run: vm--update vm--set-default-version 2
- Install Ubuntu from Microsoft Store: search "Ubuntu" and click Install (e.g., Ubuntu 22.04 LTS ).
- Launch Ubuntu from Start Menu → set username and password. Screenshots to capture: - PowerShell command running 
-vm--install (show success message) 
-vm--install
- vm--update
- Hardware Configuration
- vm example - Host OS:
- Windows 11 - vm version : vm 7.2.4 
-Ubuntu distro: Ubuntu 22.04 LTS 
-Memory/ disk: vm uses host resources
+ Download VirtualBox from virtualbox.org and install it.
+ Download Ubuntu ISO from ubuntu.com.
+ Create a new virtual machine in VirtualBox:
+ Select type: Linux, version: Ubuntu (64-bit)
+ Allocate at least 2GB RAM and 30GB disk space
+Mount the Ubuntu ISO in the VM’s settings under Storage.
+ Start the VM and follow Ubuntu’s installation steps.
+
 Step 2 — Shell command implementations and documentation
  A) File Navigation
  1) pwd
